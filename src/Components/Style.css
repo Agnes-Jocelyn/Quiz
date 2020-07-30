@@ -1,0 +1,48 @@
+.container h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav.navbar{
+    background-color: #3dc3bf !important;
+}
+
+hr {
+	width: 150px;
+	border-top: 4px solid #222831 !important;
+}
+.test{
+    text-align: center;
+    align-content: center;
+}
+
+.profilpic{
+    padding-top:7px;
+    object-fit:cover;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.card-body p{
+    font-weight:bold;
+}
+
+.card-right{
+    background-Color:#eeecec;
+    
+}
+
+.btn.btn-info{
+    background-color: #3dc3bf62 ;
+    color: white;
+    height: 40px;
+    border-radius: 0%;
+    margin: auto 10px;
+    border: none;
+    transition:0.5s;
+}
+
+.btn.btn-info:hover{
+    background-color: #3dc3bfe7 ;
+    color:white;
+}
