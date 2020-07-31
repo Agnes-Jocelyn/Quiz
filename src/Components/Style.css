@@ -1,6 +1,6 @@
 .container h2{
     text-align: center;
-    margin-top: 30px;
+    margin: 30px 0px;
 }
 
 nav.navbar{
@@ -9,7 +9,7 @@ nav.navbar{
 
 hr {
 	width: 150px;
-	border-top: 4px solid #222831 !important;
+	border-top: 4px solid #3dc3bf !important;
 }
 .test{
     text-align: center;
@@ -37,12 +37,27 @@ hr {
     color: white;
     height: 40px;
     border-radius: 0%;
-    margin: auto 10px;
+    margin: auto 5px;
     border: none;
     transition:0.5s;
 }
 
 .btn.btn-info:hover{
-    background-color: #3dc3bfe7 ;
+    background-color: #3dc3bffd ;
     color:white;
+}
+
+.footer{
+    background-color:#3dc3bf ;
+    text-align: center;
+    color: white;
+    padding: 10px 10px;
+    position: sticky;
+}
+
+@media(max-width:670px){
+    .card-left{
+        margin-bottom: 20px;
+    }
+
 }

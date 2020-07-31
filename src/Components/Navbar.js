@@ -8,9 +8,9 @@ class Navbar extends Component {
       <div >
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
             <div className="container">
-            <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+            <Link className="navbar-brand" to="/">
+            TheSmartLocal Quiz
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,11 +29,6 @@ class Navbar extends Component {
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="/details">
-                  Link
-                </Link>
-              </li> */}
             </ul>
           </div>
             </div>
